@@ -1,0 +1,49 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# moto
+
+<!-- badges: start -->
+[![Lifecycle: maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
+[![Travis build status](https://travis-ci.org/tomasbarcellos/moto.svg?branch=master)](https://travis-ci.org/tomasbarcellos/moto)
+<!-- badges: end -->
+
+The goal of moto is to ...
+
+## Installation
+
+``` r
+# install.packages("devtools")
+devtools::install_github("tomasbarcellos/moto")
+```
+## Exemplo
+
+Ao carregar o pacote as tabelas principais ficam disponíveis.
+
+```{r example}
+library(moto)
+library(tibble) # só para imprimir bonito aqui
+moto1
+```
+
+Também estão disponíveis tabelas auxiliares com os códigos:
+`vinculo`, `uf`, `cor` e `instrucao`. 
+
+```{r}
+vinculo
+```
+
+
+
