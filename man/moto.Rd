@@ -34,7 +34,7 @@ Os dados de \code{moto1} se referem as estatísticas sobre vinculo principal
 no mercado de trabalho enquanto \code{moto2} aos casos secundários.
 }
 \examples{
-moto1
-moto2
+head(moto1)
+head(moto2)
 }
 \keyword{datasets}

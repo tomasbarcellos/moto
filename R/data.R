@@ -25,8 +25,8 @@
 #' \item{instrucao}{Instrução. Para códigos ver \code{\link{instrucao}}.}
 #' }
 #' @examples
-#' moto1
-#' moto2
+#' head(moto1)
+#' head(moto2)
 "moto1"
 
 #' @rdname moto
@@ -54,3 +54,18 @@
 #' @rdname dicionarios
 #' @format NULL
 "uf"
+
+#' Deflator
+#'
+#' @description
+#' Variação anual do IPCA e deflator para valores 2020
+#'
+#' @name Dicionários
+#' @rdname dicionarios
+#' @format NULL
+#' \describe{
+#' \item{ano}{Ano.}
+#' \item{ipca}{Variação anual do IPCA, em percentual.}
+#' \item{deflator}{Deflator usado para reais correntes em reais de 2020.}
+#' }
+"ipca"

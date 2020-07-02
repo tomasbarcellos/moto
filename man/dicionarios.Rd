@@ -7,7 +7,16 @@
 \alias{cor}
 \alias{instrucao}
 \alias{uf}
+\alias{ipca}
 \title{Dicionário de variáveis categóricas}
+\format{
+NULL
+\describe{
+\item{ano}{Ano.}
+\item{ipca}{Variação anual do IPCA, em percentual.}
+\item{deflator}{Deflator usado para reais correntes em reais de 2020.}
+}
+}
 \usage{
 vinculo
 
@@ -16,8 +25,12 @@ cor
 instrucao
 
 uf
+
+ipca
 }
 \description{
 Dicionários com par código/descrição.
+
+Variação anual do IPCA e deflator para valores 2020
 }
 \keyword{datasets}
